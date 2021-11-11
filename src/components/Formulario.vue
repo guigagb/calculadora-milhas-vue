@@ -3,11 +3,11 @@
 		<v-row>
 				<v-col md="6">
 						<v-subheader>Valor do Produto</v-subheader>
-						<v-text-field v-model="infoCalculo.vlrProduto" outlined hide-details></v-text-field>
+						<v-text-field type="number" v-model="infoCalculo.vlrProduto" outlined hide-details></v-text-field>
 				</v-col>
 				<v-col md="6">
 								<v-subheader>Valor do Milheiro (R$)</v-subheader>
-								<v-text-field v-model="infoCalculo.vlrMilheiro" outlined hide-details></v-text-field>
+								<v-text-field type="number" v-model="infoCalculo.vlrMilheiro" outlined hide-details></v-text-field>
 				</v-col>
 		</v-row>
 		<v-row >
@@ -16,11 +16,11 @@
 				</v-col>
 				<v-col md="6">
 								<v-subheader>Pontos por Real</v-subheader>
-								<v-text-field v-model="infoCalculo.parceiro.pontosPorReal" outlined hide-details></v-text-field>
+								<v-text-field type="number" v-model="infoCalculo.parceiro.pontosPorReal" outlined hide-details></v-text-field>
 				</v-col>
 				<v-col md="6">
 								<v-subheader>Bonificação Resgate (%)</v-subheader>
-								<v-text-field v-model="infoCalculo.parceiro.percentualBonificacao" outlined hide-details></v-text-field>
+								<v-text-field type="number" v-model="infoCalculo.parceiro.percentualBonificacao" outlined hide-details></v-text-field>
 				</v-col>
 		</v-row>
 		<v-row >
@@ -29,11 +29,11 @@
 				</v-col>
 				<v-col md="6">
 								<v-subheader>Pontos por Real</v-subheader>
-								<v-text-field v-model="infoCalculo.cartao.pontosPorReal" outlined hide-details></v-text-field>
+								<v-text-field type="number" v-model="infoCalculo.cartao.pontosPorReal" outlined hide-details></v-text-field>
 				</v-col>
 				<v-col md="6">
 								<v-subheader>Bonificação Resgate (%)</v-subheader>
-								<v-text-field v-model="infoCalculo.cartao.percentualBonificacao" outlined hide-details></v-text-field>
+								<v-text-field type="number" v-model="infoCalculo.cartao.percentualBonificacao" outlined hide-details></v-text-field>
 				</v-col>
 		</v-row>
 		<v-row>
